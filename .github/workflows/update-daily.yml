@@ -36,7 +36,7 @@ jobs:
       - name: 🔄 Atualizar Dados
         run: |
           echo "⏰ Iniciando atualização automática..."
-          python update data official.py
+          python update-data.py
           echo "✅ Atualização concluída!"
       
       # 5. Verificar se houve mudanças
