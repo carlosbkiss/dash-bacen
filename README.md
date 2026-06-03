@@ -1,4 +1,3 @@
-# dash-bacen
 
 # 📊 Dashboard Oficial: Cenário Macroeconômico Brasil
 
