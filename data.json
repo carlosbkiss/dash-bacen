@@ -1,19 +1,19 @@
 {
   "metadata": {
-    "lastUpdate": "2024-06-02 12:00:00",
+    "lastUpdate": "2026-06-03 01:04:15",
     "status": "success",
-    "itemsUpdated": 10,
+    "itemsUpdated": 2,
     "dataType": "100% OFICIAL (BC/IBGE)",
-    "successRate": "9/9",
+    "successRate": "1/9",
     "apiStatus": {
-      "bc_selic": "success",
-      "bc_ipca": "success",
-      "bc_cambio": "success",
-      "bc_poupanca": "success",
-      "bc_focus": "success",
-      "ibge_desemprego": "success",
-      "ibge_pib": "success",
-      "ibge_confianca": "success",
+      "bc_selic": "failed",
+      "bc_ipca": "failed",
+      "bc_cambio": "failed",
+      "bc_poupanca": "failed",
+      "bc_focus": "failed",
+      "ibge_desemprego": "failed",
+      "ibge_pib": "failed",
+      "ibge_confianca": "failed",
       "bc_comunicados": "success"
     }
   },
@@ -50,8 +50,8 @@
     },
     "spread": {
       "value": -0.25,
-      "interpretation": "Mercado espera QUEDA de 25bps",
-      "date": "2024-06-02",
+      "interpretation": "Mercado espera QUEDA",
+      "date": "2026-06-03",
       "source": "Cálculo BC Focus vs Selic"
     },
     "desemprego": {
@@ -75,20 +75,8 @@
   },
   "comunicados": [
     {
-      "date": "2024-06-02",
-      "title": "Banco Central publica estatísticas oficiais",
-      "link": "https://www.bcb.gov.br",
-      "source": "Banco Central"
-    },
-    {
-      "date": "2024-06-01",
-      "title": "Comunicado sobre política monetária",
-      "link": "https://www.bcb.gov.br",
-      "source": "Banco Central"
-    },
-    {
-      "date": "2024-05-31",
-      "title": "Normativa de operações cambiais",
+      "date": "2026-06-03",
+      "title": "Banco Central publica estatísticas do dia",
       "link": "https://www.bcb.gov.br",
       "source": "Banco Central"
     }
