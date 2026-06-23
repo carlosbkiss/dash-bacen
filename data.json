@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "lastUpdate": "2026-06-22 16:27:58",
-    "successRate": "1/8",
+    "lastUpdate": "2026-06-23 00:50:26",
+    "successRate": "4/8",
     "apiStatus": {
-      "selic": false,
+      "selic": true,
       "ipca": true,
-      "poupanca": false,
-      "dolar": false,
+      "poupanca": true,
+      "dolar": true,
       "focus": false,
       "desemprego": false,
       "pib": false,
@@ -15,66 +15,570 @@
   },
   "macro": {
     "selic": {
-      "value": 10.5,
-      "trend": 0.0,
+      "value": 14.25,
+      "unit": "% a.a.",
+      "trend": 35.71,
       "source": "Banco Central",
-      "updatedAt": "2026-06-22 16:27:58"
+      "updatedAt": "2026-06-23 00:50:26"
     },
     "ipca": {
       "value": 4.72,
+      "unit": "% 12m",
       "trend": 0.0,
       "source": "Banco Central",
-      "updatedAt": "2026-06-22 16:27:58"
+      "updatedAt": "2026-06-23 00:50:26"
     },
     "dolar": {
-      "value": 4.98,
-      "trend": 0.0,
+      "value": 5.1395,
+      "unit": "R$/USD",
+      "trend": 3.2,
       "source": "Banco Central",
-      "updatedAt": "2026-06-22 16:27:58"
+      "updatedAt": "2026-06-23 00:50:26"
     },
     "poupanca": {
-      "value": 0.55,
-      "trend": 0.0,
+      "value": 0.6707,
+      "unit": "% a.m.",
+      "trend": 21.95,
       "source": "Banco Central",
-      "updatedAt": "2026-06-22 16:27:58"
+      "updatedAt": "2026-06-23 00:50:26"
     },
     "focus": {
       "value": 10.25,
+      "unit": "% IPCA proj.",
       "trend": 0.0,
       "source": "Banco Central",
-      "updatedAt": "2026-06-22 16:27:58"
+      "updatedAt": "2026-06-23 00:50:26"
     },
     "spread": {
-      "value": -0.25,
-      "bps": -25,
-      "interpretation": "Mercado espera QUEDA",
-      "updatedAt": "2026-06-22 16:27:58"
+      "value": -4.0,
+      "bps": -400,
+      "interpretation": "Mercado espera QUEDA de juros",
+      "unit": "pp",
+      "source": "Calculado (Focus IPCA - Selic)",
+      "updatedAt": "2026-06-23 00:50:26"
     },
     "desemprego": {
       "value": 7.8,
+      "unit": "%",
       "trend": 0.0,
       "source": "IBGE",
-      "updatedAt": "2026-06-22 16:27:58"
+      "updatedAt": "2026-06-23 00:50:26"
     },
     "pib": {
       "value": 2.1,
+      "unit": "% acum. 4tri",
       "trend": 0.0,
       "source": "IBGE",
-      "updatedAt": "2026-06-22 16:27:58"
+      "updatedAt": "2026-06-23 00:50:26"
     },
     "confianca": {
       "value": 89.5,
+      "unit": "pontos",
       "trend": 0.0,
-      "source": "FGV",
-      "updatedAt": "2026-06-22 16:27:58"
+      "source": "FGV/IBGE",
+      "updatedAt": "2026-06-23 00:50:26"
     }
   },
   "comunicados": [
     {
-      "date": "2026-06-03",
-      "title": "Banco Central publica estatísticas do dia",
-      "link": "https://www.bcb.gov.br",
-      "source": "Banco Central"
+      "titulo": "Mais eficiência nos pagamentos com o uso do Open Finance",
+      "data": "2026-06-22T11:30:42Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Pix por aproximação ganha mais flexibilidade e deixa de ter teto fixo de R$500",
+      "data": "2026-06-19T19:01:50Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Pix recebe registro de marca de alto renome",
+      "data": "2026-06-16T18:30:53Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Educação financeira é central para ampliar autonomia da população, diz diretora do BC",
+      "data": "2026-06-12T20:41:09Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": " Banco Central divulga relatório com produção e atividades de pesquisa em 2025",
+      "data": "2026-06-01T14:03:13Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Veja como foi: BC promoveu evento sobre o fortalecimento do bem-estar financeiro das mulheres ",
+      "data": "2026-05-22T19:44:28Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "BC divulga IBCR com dados de mais quatro estados",
+      "data": "2026-05-20T19:50:22Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "13ª edição da Semana ENEF acontece entre 18 e 24 de maio",
+      "data": "2026-05-15T19:16:27Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Começa a Conferência Anual do Banco Central do Brasil 2026",
+      "data": "2026-05-13T20:41:16Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "LiveBC: Mercado imobiliário: o que esperar do direcionamento da poupança adotado pelo BC",
+      "data": "2026-05-08T20:14:34Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Portal de Dados Abertos do BC ganha quatro tutorais",
+      "data": "2026-05-08T12:16:11Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "BC debate segurança cibernética",
+      "data": "2026-04-29T14:04:40Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "LiveBC: Relatório de Cidadania Financeira 2025 mostra que mais de 96% dos brasileiros têm conta bancária ou de pagamento",
+      "data": "2026-04-22T16:05:23Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "BC e CVM formalizam cooperação para ampliar e qualificar as informações de crédito no país",
+      "data": "2026-04-17T17:59:24Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "LiveBC: Nova edição de relatório do BC traz a evolução da Cidadania Financeira no Brasil ",
+      "data": "2026-04-10T20:15:58Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Prêmio Top 5 Focus: edição 2026",
+      "data": "2026-04-09T16:07:15Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Relatório da Ouvidoria 2025: BC reforça eficiência e transparência na relação com o cidadão",
+      "data": "2026-04-08T11:21:51Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Inscrições para a Conferência Anual do Banco Central estão abertas até 5 de maio",
+      "data": "2026-04-07T20:44:58Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Revista da PGBC recebe artigos para edição especial",
+      "data": "2026-04-06T12:56:21Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Banco Central divulga o Relatório Integrado (RIG) de 2025",
+      "data": "2026-04-01T17:58:19Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Proposta de nova regulação mira mais segurança, capital robusto e interoperabilidade no Sistema de Pagamentos Brasileiro (SPB)",
+      "data": "2026-03-31T18:24:09Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Fórum Pix debate aperfeiçoamentos no serviço criado pelo BC",
+      "data": "2026-03-26T20:52:29Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Servidor do BC é premiado no Central Banking Awards 2026",
+      "data": "2026-03-12T14:07:10Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "LIFT Day 2026 acontece em 31 de março. As inscrições já estão abertas e as vagas são limitadas",
+      "data": "2026-03-09T11:43:35Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Banco Central abre cinco vagas para o Programa de Estágio de Pós-Graduação em Pesquisa (PEPP)",
+      "data": "2026-03-05T14:15:03Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "BC publica página sobre o Índice de Atividade Econômica do Banco Central (IBC-Br)",
+      "data": "2026-02-23T12:08:27Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Live detalhou ações do BC no campo dos ativos virtuais",
+      "data": "2026-02-19T13:59:22Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Banco Central lança projeto Geotec",
+      "data": "2026-02-11T11:50:09Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "LiveBC: ativos virtuais e a nova regulamentação do BC para o setor",
+      "data": "2026-02-06T19:35:03Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Banco Central abre inscrições para o projeto Geotec",
+      "data": "2026-01-28T14:46:03Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Declaração do Censo Quinquenal de Capitais Estrangeiros no País pode ser feita até 31 de março",
+      "data": "2026-01-19T14:03:33Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Portabilidade de crédito poderá ser feita pelo Open Finance",
+      "data": "2026-01-05T11:55:41Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Prazo final para envio de artigos à Conferência Anual do Banco Central: 27 de fevereiro de 2026",
+      "data": "2025-12-29T13:29:08Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Banco Central lança Agenda de Pesquisa para o ciclo 2026–2029",
+      "data": "2025-12-26T21:50:17Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Planejamento Estratégico 2026-2029: compromisso com a estabilidade, o fortalecimento institucional e o foco no cidadão",
+      "data": "2025-12-24T11:08:16Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "LiveBC - Planejamento Estratégico do BC: o que vem por aí nos próximos quatro anos",
+      "data": "2025-12-18T19:52:38Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "BC e CMN criam regras para nomenclatura das instituições financeiras",
+      "data": "2025-12-17T14:13:58Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Calendário de divulgações do BC pode ser incluído em aplicativos de agenda ",
+      "data": "2025-12-08T14:56:06Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "BC lança serviço contra fraudes com uso de identidade falsa no Sistema Financeiro Nacional. Saiba como vai funcionar o BC Protege+ ",
+      "data": "2025-12-01T10:00:41Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "LiveBC #47: Pix 5 anos – a Inovação que Redefiniu o Dinheiro no Brasil",
+      "data": "2025-11-17T13:36:18Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Banco Central detalha regras sobre ativos virtuais",
+      "data": "2025-11-14T19:04:36Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Consulta pública sobre novas exigências para Relatório de Riscos e Oportunidades Sociais, Ambientais e Climáticos vai até 13 de fevereiro",
+      "data": "2025-11-12T15:52:00Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "LiveBC: Pix 5 anos, a inovação que redefiniu o dinheiro no País",
+      "data": "2025-11-10T20:09:31Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Banco Central publica mais quatro conjuntos de dados no Portal de Dados Abertos",
+      "data": "2025-11-10T14:59:25Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "BC divulga resultados da Agenda de Pesquisa do ciclo 2021-2024",
+      "data": "2025-11-05T18:31:16Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "LiveBC #46: Setor de cooperativas possui mais de 10 mil postos de atendimento, com mais de 20 milhões de cooperados em todo o Brasil",
+      "data": "2025-10-23T18:28:51Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "LiveBC: avanços e desafios do cooperativismo de crédito no Brasil",
+      "data": "2025-10-17T19:14:11Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Estudo do BC sugere melhorias nos sistemas de amortização do financiamento imobiliário com uso do IPCA",
+      "data": "2025-10-17T18:50:31Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Dia do Professor: Aprender Valor já tem mais de 140 mil profissionais de ensino cadastrados na plataforma",
+      "data": "2025-10-15T13:06:54Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "BC inclui títulos sustentáveis na prestação de informações sobre capitais internacionais",
+      "data": "2025-10-14T20:25:55Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Banco Central consulta mercado sobre prazos de ciclos de liquidação ",
+      "data": "2025-10-08T12:57:59Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "BC consulta sobre criação de indicador de liquidez simplificado e ampliação do escopo de aplicação do indicador de Liquidez de Curto Prazo ",
+      "data": "2025-10-02T13:27:55Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Consulta pública propõe novas regras para o eFX",
+      "data": "2025-10-01T17:45:50Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Pix terá botão de contestação",
+      "data": "2025-09-30T12:40:25Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Banco Central lança oficialmente a Pesquisa Firmus após fase-piloto",
+      "data": "2025-09-29T20:10:29Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "LIFT Learning aposta em tokenização de ativos sustentáveis no mercado global",
+      "data": "2025-09-26T18:23:20Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "LiveBC #45 destaca iniciativas de sustentabilidade do Banco Central",
+      "data": "2025-09-24T13:09:09Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Na Ponta do Lápis: conheça programa que tem apoio do Banco Central para educação financeira nas escolas",
+      "data": "2025-09-23T13:56:50Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "LiveBC: como o BC vem investindo em sustentabilidade",
+      "data": "2025-09-12T19:23:29Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "“O futuro das finanças já começou, e ele é aberto, inteligente, centrado no cidadão”, diz Galípolo",
+      "data": "2025-09-10T14:32:09Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Registrato chega a noventa milhões de relatórios emitidos",
+      "data": "2025-09-09T12:47:51Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Relatório de Riscos e Oportunidades Sociais, Ambientais e Climáticos retrata iniciativas do BC na promoção de sistema financeiro mais inclusivo e sustentável",
+      "data": "2025-08-29T15:12:01Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Open Finance comemora 5 anos de regulamentação em evento no próximo dia 28 de agosto",
+      "data": "2025-08-27T18:32:51Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Segmento de consórcios cresce e movimenta mais de R$120 bi em 2024",
+      "data": "2025-08-19T11:44:20Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Aprender Valor: conheça os educadores, as escolas e as redes de ensino que mais se destacaram em 2024",
+      "data": "2025-08-18T14:36:08Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Em 5 anos, Open Finance já conecta 65 milhões de contas e movimenta cerca de R$1,2 bilhão por mês em pagamentos no Brasil",
+      "data": "2025-08-14T13:49:00Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "LiveBC: em 5 anos, Open Finance chega a 100 milhões de autorizações de compartilhamento de dados e de pagamentos",
+      "data": "2025-08-08T18:55:01Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Aprender Valor: BC anuncia parceria para levar educação financeira a estudantes do ensino médio de todo o país a partir de 2026",
+      "data": "2025-08-06T16:54:28Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Banco Central debate sistema financeiro do futuro",
+      "data": "2025-08-05T11:22:31Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "BC consolida normas e amplia escopo regulatório para financeiras",
+      "data": "2025-08-04T11:32:33Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Banco Central coloca em circulação hoje moeda comemorativa em celebração dos seus 60 anos",
+      "data": "2025-07-25T14:17:32Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": " Utilização de imóvel como garantia em mais de uma operação de crédito já está valendo",
+      "data": "2025-07-23T13:15:32Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": " Panorama do Sistema Nacional de Crédito Cooperativo: total de ativos chega a R$885 bi em 2024",
+      "data": "2025-07-22T13:31:23Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": " Seminário Sustentabilidade Social discutiu a importância  da responsabilidade social, ambiental e climática no setor financeiro",
+      "data": "2025-07-09T14:32:00Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "BC oferece cinco vagas de estágio de pós-graduação em Pesquisa",
+      "data": "2025-07-08T17:18:16Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Meu BC passa a contar com novos serviços para o cidadão",
+      "data": "2025-06-25T17:42:57Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Museu de Valores empresta obras de arte para reabertura do Centro Cultural TCU",
+      "data": "2025-06-23T10:56:48Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "LiveBC detalhou o Pix Automático",
+      "data": "2025-06-18T13:38:11Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "LiveBC: como funciona o Pix Automático e o que ele muda no dia a dia das empresas e pessoas",
+      "data": "2025-06-13T20:05:36Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Pix Automático chega em 16 de junho",
+      "data": "2025-06-04T12:56:42Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Plano de abertura de dados prevê a disponibilização de novas bases de dados até 2027",
+      "data": "2025-06-03T14:25:23Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "BC submete à participação popular proposta de revisão dos balancetes combinados dos sistemas cooperativos de crédito",
+      "data": "2025-06-02T18:33:52Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Chefe de análise econômica e estatística do BIS falou sobre política fiscal, inflação e ciclos econômicos na Conferência Anual do Banco Central do Brasil",
+      "data": "2025-05-30T13:40:11Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Conferência Anual do BC: como a transparência na comunicação influencia a economia?",
+      "data": "2025-05-29T16:32:06Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "BC lança novos serviços para reforçar segurança e facilitar a vida financeira do cidadão",
+      "data": "2025-05-28T11:36:16Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Câmbio flutuante, mercado de câmbio no Brasil e o papel do BC",
+      "data": "2025-05-16T19:11:55Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Confira quais os meios de pagamentos mais utilizados no Brasil em 2024",
+      "data": "2025-05-16T13:17:37Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Almanaque conta 60 anos de história do Banco Central",
+      "data": "2025-05-14T14:14:13Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Primeira LiveBC de 2025 detalha o processo de planejamento estratégico do Banco Central",
+      "data": "2025-05-13T14:21:59Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Banco Central e Fenasbac promovem amanhã o LIFT Day 2025",
+      "data": "2025-04-29T18:08:03Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "BC elenca prioridades regulatórias para 2025/2026",
+      "data": "2025-04-28T18:23:41Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Banco Central quer ouvir a sociedade sobre “tokenização” de cartões",
+      "data": "2025-04-16T18:51:02Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "LiveBC vai tratar da agenda estratégica para os próximos quatro anos ",
+      "data": "2025-04-11T20:28:19Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Banco Central passa a divulgar dados setoriais do seu Índice de Atividade Econômica (IBC-Br)",
+      "data": "2025-04-11T12:28:12Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "LIFT Data 2025: inscrições para participar do programa virtual de inovação vão até 13 de abril",
+      "data": "2025-04-10T20:50:14Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "BC lança consulta pública para dar tratamento contábil mais uniforme aos ativos e passivos de ações de sustentabilidade",
+      "data": "2025-04-10T19:39:26Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Inscrições para a Conferência Anual do BC estão abertas até 5 de maio",
+      "data": "2025-04-08T14:30:14Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Prêmio Top 5 Focus: edição 2025",
+      "data": "2025-04-07T15:23:18Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Conheça novas funcionalidades do Pix e outros aperfeiçoamentos no meio de pagamento",
+      "data": "2025-04-03T19:22:33Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Prazo para declaração anual do Censo de Capitais Estrangeiros no País acaba em 31 de março",
+      "data": "2025-03-26T11:44:39Z",
+      "url": "https://www.bcb.gov.br"
     }
   ]
 }
