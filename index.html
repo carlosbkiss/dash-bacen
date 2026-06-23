@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard - Macro Brasil </title>
+    <title>Dashboard - Indicadores Macroeconômicos Brasil</title>
     <style>
         * {
             margin: 0;
@@ -213,10 +213,23 @@
         .indicator-meta {
             display: flex;
             justify-content: space-between;
-            align-items: center;
+            align-items: flex-start;
             padding-top: 1rem;
             border-top: 1px solid rgba(255, 255, 255, 0.05);
             font-size: 0.8rem;
+            gap: 0.8rem;
+            flex-wrap: wrap;
+        }
+
+        .comparision-info {
+            font-size: 0.7rem;
+            color: var(--text-secondary);
+            line-height: 1.3;
+        }
+
+        .comparision-info strong {
+            color: var(--accent);
+            font-weight: 600;
         }
 
         .trend {
@@ -416,8 +429,8 @@
         <!-- Header -->
         <header>
             <div class="header-content">
-                <h1>Cenário <strong>Macroeconômico</strong></h1>
-                <p>Dashboard Oficial - Banco Central & IBGE</p>
+                <h1><strong>Indicadores</strong> Macroeconômicos</h1>
+                <p>Dados Oficiais - Banco Central & IBGE</p>
             </div>
             <div class="header-meta">
                 <div class="last-update">Última atualização: <span id="lastUpdate">--:--</span></div>
@@ -448,9 +461,11 @@
                         <span id="selic">--</span><span class="unit">% a.a.</span>
                     </div>
                     <div class="indicator-meta">
-                        <span class="trend" id="selicTrend"></span>
-                        <span class="source" id="selicDate">--</span>
+                        <div style="flex: 1;">
+                            <span class="trend" id="selicTrend"></span>
+                        </div>
                     </div>
+                    <div class="comparision-info" id="selicComparison"></div>
                 </div>
 
                 <!-- 2. IPCA -->
@@ -460,9 +475,11 @@
                         <span id="ipca">--</span><span class="unit">%</span>
                     </div>
                     <div class="indicator-meta">
-                        <span class="trend" id="ipcaTrend"></span>
-                        <span class="source" id="ipcaDate">--</span>
+                        <div style="flex: 1;">
+                            <span class="trend" id="ipcaTrend"></span>
+                        </div>
                     </div>
+                    <div class="comparision-info" id="ipcaComparison"></div>
                 </div>
 
                 <!-- 3. Dólar -->
@@ -472,9 +489,11 @@
                         <span id="dolar">--</span><span class="unit">R$</span>
                     </div>
                     <div class="indicator-meta">
-                        <span class="trend" id="dolarTrend"></span>
-                        <span class="source" id="dolarDate">--</span>
+                        <div style="flex: 1;">
+                            <span class="trend" id="dolarTrend"></span>
+                        </div>
                     </div>
+                    <div class="comparision-info" id="dolarComparison"></div>
                 </div>
 
                 <!-- 4. Poupança -->
@@ -484,9 +503,11 @@
                         <span id="poupanca">--</span><span class="unit">% a.m.</span>
                     </div>
                     <div class="indicator-meta">
-                        <span class="trend" id="poupancaTrend"></span>
-                        <span class="source" id="poupancaDate">--</span>
+                        <div style="flex: 1;">
+                            <span class="trend" id="poupancaTrend"></span>
+                        </div>
                     </div>
+                    <div class="comparision-info" id="poupancaComparison"></div>
                 </div>
 
                 <!-- 5. Focus (Expectativa IPCA) -->
@@ -496,9 +517,11 @@
                         <span id="focus">--</span><span class="unit">%</span>
                     </div>
                     <div class="indicator-meta">
-                        <span class="trend" id="focusTrend"></span>
-                        <span class="source" id="focusDate">--</span>
+                        <div style="flex: 1;">
+                            <span class="trend" id="focusTrend"></span>
+                        </div>
                     </div>
+                    <div class="comparision-info" id="focusComparison"></div>
                 </div>
 
                 <!-- 6. Spread (calculado) -->
@@ -527,9 +550,11 @@
                         <span id="desemprego">--</span><span class="unit">%</span>
                     </div>
                     <div class="indicator-meta">
-                        <span class="trend" id="desempregoTrend"></span>
-                        <span class="source" id="desempregoDate">--</span>
+                        <div style="flex: 1;">
+                            <span class="trend" id="desempregoTrend"></span>
+                        </div>
                     </div>
+                    <div class="comparision-info" id="desempregoComparison"></div>
                 </div>
 
                 <!-- 8. PIB -->
@@ -539,9 +564,11 @@
                         <span id="pib">--</span><span class="unit">% acum. 4tri</span>
                     </div>
                     <div class="indicator-meta">
-                        <span class="trend" id="pibTrend"></span>
-                        <span class="source" id="pibDate">--</span>
+                        <div style="flex: 1;">
+                            <span class="trend" id="pibTrend"></span>
+                        </div>
                     </div>
+                    <div class="comparision-info" id="pibComparison"></div>
                 </div>
 
                 <!-- 9. Confiança -->
@@ -551,9 +578,11 @@
                         <span id="confianca">--</span><span class="unit">pts</span>
                     </div>
                     <div class="indicator-meta">
-                        <span class="trend" id="confiancaTrend"></span>
-                        <span class="source" id="confiancaDate">--</span>
+                        <div style="flex: 1;">
+                            <span class="trend" id="confiancaTrend"></span>
+                        </div>
                     </div>
+                    <div class="comparision-info" id="confiancaComparison"></div>
                 </div>
             </div>
         </section>
@@ -584,7 +613,7 @@
 
         <!-- Footer -->
         <footer>
-            <p>© 2026 @carlosbkiss - Dashboard de Indicadores Macroeconômicos do Brasil</p>
+            <p>2026 @carlosbkiss | Dashboard de Indicadores Macroeconômicos Brasil</p>
             <p>Dados: Banco Central do Brasil | IBGE | Atualização via Script Python + GitHub Actions</p>
             <p style="margin-top: 1rem; font-size: 0.7rem; color: var(--border);">v2.0 — Python API Consumers | JSON Storage | Real-time Sync</p>
         </footer>
@@ -595,7 +624,7 @@
         // CONFIG
         // ================================================================
         const CONFIG = {
-            dataFile: 'data.json',        // Arquivo gerado pelo script Python
+            dataFile: './data.json',        // Arquivo gerado pelo script Python (raiz do repo)
             cacheDuration: 30 * 60 * 1000, // 30 min cache local
             refreshInterval: 30 * 60 * 1000 // 30 min refresh automático
         };
@@ -691,9 +720,20 @@
                     elTrend.innerHTML = formatTrend(ind.trend);
                 }
 
-                const elDate = document.getElementById(key + 'Date');
-                if (elDate) {
-                    elDate.textContent = ind.updatedAt ? formatDate(ind.updatedAt) : '--';
+                // Renderizar comparativo com data anterior
+                const elComparison = document.getElementById(key + 'Comparison');
+                if (elComparison && ind.previousDate && ind.previousValue !== null) {
+                    const prevVal = formatNumber(ind.previousValue, 2);
+                    const daysDiff = calculateDaysDifference(ind.previousDate);
+                    const changeVal = formatNumber(ind.value - ind.previousValue, 2);
+                    const changeSign = ind.value > ind.previousValue ? '+' : '';
+                    
+                    elComparison.innerHTML = `
+                        vs <strong>${prevVal}</strong> em ${ind.previousDate}<br>
+                        Mudança: <strong>${changeSign}${changeVal}</strong> (${daysDiff})
+                    `;
+                } else if (elComparison) {
+                    elComparison.innerHTML = '<em>Sem dados anteriores</em>';
                 }
 
                 // Renderizar interpretação do Spread
@@ -702,6 +742,17 @@
                     document.getElementById('spreadInterpretation').textContent = interp;
                 }
             });
+        }
+
+        function calculateDaysDifference(dateStr) {
+            const past = new Date(dateStr);
+            const today = new Date();
+            const diffTime = Math.abs(today - past);
+            const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+            
+            if (diffDays === 0) return 'hoje';
+            if (diffDays === 1) return 'ontem';
+            return `${diffDays} dias atrás`;
         }
 
         function renderApiStatus(data) {
