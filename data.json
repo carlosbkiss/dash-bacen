@@ -5,7 +5,7 @@
       "unit": "% a.a.",
       "trend": 0.0,
       "source": "Banco Central",
-      "updatedAt": "2026-06-30 13:55:19",
+      "updatedAt": "2026-07-01 14:07:25",
       "previousValue": 14.75,
       "previousDate": "2026-06-22"
     },
@@ -14,34 +14,34 @@
       "unit": "% 12m",
       "trend": 0.0,
       "source": "Banco Central",
-      "updatedAt": "2026-06-30 13:55:19",
+      "updatedAt": "2026-07-01 14:07:25",
       "previousValue": 4.14,
       "previousDate": "2026-06-22"
     },
     "poupanca": {
       "value": 0.6703,
       "unit": "% a.m.",
-      "trend": -0.01,
+      "trend": 0.0,
       "source": "Banco Central",
-      "updatedAt": "2026-06-30 13:55:19",
+      "updatedAt": "2026-07-01 14:07:25",
       "previousValue": 0.6704,
       "previousDate": "2026-06-29"
     },
     "dolar": {
-      "value": 5.1717,
+      "value": 5.1766,
       "unit": "R$/USD",
-      "trend": 0.04,
+      "trend": 0.09,
       "source": "Banco Central",
-      "updatedAt": "2026-06-30 13:55:19",
-      "previousValue": 5.1695,
-      "previousDate": "2026-06-29"
+      "updatedAt": "2026-07-01 14:07:25",
+      "previousValue": 5.1717,
+      "previousDate": "2026-06-30"
     },
     "focus": {
       "value": 4.86,
       "unit": "% IPCA proj.",
       "trend": 0.0,
       "source": "Banco Central",
-      "updatedAt": "2026-06-30 13:55:19",
+      "updatedAt": "2026-07-01 14:07:25",
       "previousValue": 4.82,
       "previousDate": "2026-06-21"
     },
@@ -50,7 +50,7 @@
       "unit": "%",
       "trend": 0.0,
       "source": "IBGE",
-      "updatedAt": "2026-06-30 13:55:19",
+      "updatedAt": "2026-07-01 14:07:25",
       "previousValue": 5.8,
       "previousDate": "2026-06-25"
     },
@@ -59,7 +59,7 @@
       "unit": "% acum. 4tri",
       "trend": 0.0,
       "source": "IBGE",
-      "updatedAt": "2026-06-30 13:55:19",
+      "updatedAt": "2026-07-01 14:07:25",
       "previousValue": 2.32,
       "previousDate": "2026-06-21"
     },
@@ -68,7 +68,7 @@
       "unit": "pontos",
       "trend": 0.0,
       "source": "FGV/IBGE",
-      "updatedAt": "2026-06-30 13:55:19",
+      "updatedAt": "2026-07-01 14:07:25",
       "previousValue": 99.8,
       "previousDate": "2026-06-21"
     },
@@ -78,11 +78,11 @@
       "interpretation": "Mercado espera QUEDA de juros",
       "unit": "pp",
       "source": "Calculado (Focus IPCA - Selic)",
-      "updatedAt": "2026-06-30 13:55:19"
+      "updatedAt": "2026-07-01 14:07:25"
     }
   },
   "metadata": {
-    "lastUpdate": "2026-06-30 13:55:19",
+    "lastUpdate": "2026-07-01 14:07:25",
     "successRate": "5/8",
     "apiStatus": {
       "selic": true,
@@ -245,9 +245,29 @@
         "confianca": 101.5,
         "spread": -9.39
       }
+    },
+    "2026-07-01": {
+      "date": "2026-07-01",
+      "timestamp": "2026-07-01 14:07:25",
+      "data": {
+        "selic": 14.25,
+        "ipca": 4.72,
+        "poupanca": 0.6703,
+        "dolar": 5.1766,
+        "focus": 4.86,
+        "desemprego": 5.6,
+        "pib": 2.3,
+        "confianca": 101.5,
+        "spread": -9.39
+      }
     }
   },
   "comunicados": [
+    {
+      "titulo": "BC amplia acesso a contas em moeda estrangeira e moderniza a regulação cambial no país",
+      "data": "2026-07-01T12:45:15Z",
+      "url": "https://www.bcb.gov.br"
+    },
     {
       "titulo": "Auditoria Interna do BC obtém certificação internacional de excelência em auditoria",
       "data": "2026-06-23T20:12:15Z",
@@ -741,11 +761,6 @@
     {
       "titulo": "Prêmio Top 5 Focus: edição 2025",
       "data": "2025-04-07T15:23:18Z",
-      "url": "https://www.bcb.gov.br"
-    },
-    {
-      "titulo": "Conheça novas funcionalidades do Pix e outros aperfeiçoamentos no meio de pagamento",
-      "data": "2025-04-03T19:22:33Z",
       "url": "https://www.bcb.gov.br"
     }
   ]
