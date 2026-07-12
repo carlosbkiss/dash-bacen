@@ -5,7 +5,7 @@
       "unit": "% a.a.",
       "trend": 0.0,
       "source": "Banco Central",
-      "updatedAt": "2026-07-11 12:59:06",
+      "updatedAt": "2026-07-12 12:56:11",
       "previousValue": 14.75,
       "previousDate": "2026-06-22"
     },
@@ -14,7 +14,7 @@
       "unit": "% 12m",
       "trend": 0.0,
       "source": "Banco Central",
-      "updatedAt": "2026-07-11 12:59:06",
+      "updatedAt": "2026-07-12 12:56:11",
       "previousValue": 4.72,
       "previousDate": "2026-07-09"
     },
@@ -23,16 +23,16 @@
       "unit": "% a.m.",
       "trend": 0.0,
       "source": "Banco Central",
-      "updatedAt": "2026-07-11 12:59:06",
+      "updatedAt": "2026-07-12 12:56:11",
       "previousValue": 0.6741,
       "previousDate": "2026-07-09"
     },
     "dolar": {
       "value": 5.1088,
       "unit": "R$/USD",
-      "trend": -0.47,
+      "trend": 0.0,
       "source": "Banco Central",
-      "updatedAt": "2026-07-11 12:59:06",
+      "updatedAt": "2026-07-12 12:56:11",
       "previousValue": 5.1329,
       "previousDate": "2026-07-10"
     },
@@ -41,7 +41,7 @@
       "unit": "% IPCA proj.",
       "trend": 0.0,
       "source": "Banco Central",
-      "updatedAt": "2026-07-11 12:59:06",
+      "updatedAt": "2026-07-12 12:56:11",
       "previousValue": 4.82,
       "previousDate": "2026-06-21"
     },
@@ -50,7 +50,7 @@
       "unit": "%",
       "trend": 0.0,
       "source": "IBGE",
-      "updatedAt": "2026-07-11 12:59:06",
+      "updatedAt": "2026-07-12 12:56:11",
       "previousValue": 5.8,
       "previousDate": "2026-06-25"
     },
@@ -59,7 +59,7 @@
       "unit": "% acum. 4tri",
       "trend": 0.0,
       "source": "IBGE",
-      "updatedAt": "2026-07-11 12:59:06",
+      "updatedAt": "2026-07-12 12:56:11",
       "previousValue": 2.32,
       "previousDate": "2026-06-21"
     },
@@ -68,7 +68,7 @@
       "unit": "pontos",
       "trend": 0.0,
       "source": "FGV/IBGE",
-      "updatedAt": "2026-07-11 12:59:06",
+      "updatedAt": "2026-07-12 12:56:11",
       "previousValue": 99.8,
       "previousDate": "2026-06-21"
     },
@@ -78,19 +78,19 @@
       "interpretation": "Mercado espera QUEDA de juros",
       "unit": "pp",
       "source": "Calculado (Focus IPCA - Selic)",
-      "updatedAt": "2026-07-11 12:59:06"
+      "updatedAt": "2026-07-12 12:56:11"
     }
   },
   "metadata": {
-    "lastUpdate": "2026-07-11 12:59:06",
-    "successRate": "4/8",
+    "lastUpdate": "2026-07-12 12:56:11",
+    "successRate": "5/8",
     "apiStatus": {
       "selic": true,
       "ipca": true,
       "poupanca": true,
       "dolar": true,
       "focus": false,
-      "desemprego": false,
+      "desemprego": true,
       "pib": false,
       "confianca": false
     }
@@ -399,6 +399,21 @@
     "2026-07-11": {
       "date": "2026-07-11",
       "timestamp": "2026-07-11 12:59:06",
+      "data": {
+        "selic": 14.25,
+        "ipca": 4.64,
+        "poupanca": 0.6722,
+        "dolar": 5.1088,
+        "focus": 4.86,
+        "desemprego": 5.6,
+        "pib": 2.3,
+        "confianca": 101.5,
+        "spread": -9.39
+      }
+    },
+    "2026-07-12": {
+      "date": "2026-07-12",
+      "timestamp": "2026-07-12 12:56:11",
       "data": {
         "selic": 14.25,
         "ipca": 4.64,
