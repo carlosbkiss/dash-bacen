@@ -5,7 +5,7 @@
       "unit": "% a.a.",
       "trend": 0.0,
       "source": "Banco Central",
-      "updatedAt": "2026-07-22 13:21:10",
+      "updatedAt": "2026-07-23 13:23:42",
       "previousValue": 14.75,
       "previousDate": "2026-06-22"
     },
@@ -14,43 +14,43 @@
       "unit": "% 12m",
       "trend": 0.0,
       "source": "Banco Central",
-      "updatedAt": "2026-07-22 13:21:10",
+      "updatedAt": "2026-07-23 13:23:42",
       "previousValue": 4.72,
       "previousDate": "2026-07-09"
     },
     "poupanca": {
       "value": 0.6741,
       "unit": "% a.m.",
-      "trend": 0.01,
+      "trend": 0.0,
       "source": "Banco Central",
-      "updatedAt": "2026-07-22 13:21:10",
+      "updatedAt": "2026-07-23 13:23:42",
       "previousValue": 0.674,
       "previousDate": "2026-07-21"
     },
     "dolar": {
-      "value": 5.078,
+      "value": 5.0638,
       "unit": "R$/USD",
-      "trend": -0.22,
+      "trend": -0.28,
       "source": "Banco Central",
-      "updatedAt": "2026-07-22 13:21:10",
-      "previousValue": 5.0894,
-      "previousDate": "2026-07-21"
+      "updatedAt": "2026-07-23 13:23:42",
+      "previousValue": 5.078,
+      "previousDate": "2026-07-22"
     },
     "focus": {
       "value": 4.86,
       "unit": "% IPCA proj.",
       "trend": 0.0,
       "source": "Banco Central",
-      "updatedAt": "2026-07-22 13:21:10",
-      "previousValue": 4.82,
-      "previousDate": "2026-06-21"
+      "updatedAt": "2026-07-23 13:23:42",
+      "previousValue": null,
+      "previousDate": null
     },
     "desemprego": {
       "value": 5.6,
       "unit": "%",
       "trend": 0.0,
       "source": "IBGE",
-      "updatedAt": "2026-07-22 13:21:10",
+      "updatedAt": "2026-07-23 13:23:42",
       "previousValue": 5.8,
       "previousDate": "2026-06-25"
     },
@@ -59,18 +59,18 @@
       "unit": "% acum. 4tri",
       "trend": 0.0,
       "source": "IBGE",
-      "updatedAt": "2026-07-22 13:21:10",
-      "previousValue": 2.32,
-      "previousDate": "2026-06-21"
+      "updatedAt": "2026-07-23 13:23:42",
+      "previousValue": null,
+      "previousDate": null
     },
     "confianca": {
       "value": 101.5,
       "unit": "pontos",
       "trend": 0.0,
       "source": "FGV/IBGE",
-      "updatedAt": "2026-07-22 13:21:10",
-      "previousValue": 99.8,
-      "previousDate": "2026-06-21"
+      "updatedAt": "2026-07-23 13:23:42",
+      "previousValue": null,
+      "previousDate": null
     },
     "spread": {
       "value": -9.39,
@@ -78,11 +78,11 @@
       "interpretation": "Mercado espera QUEDA de juros",
       "unit": "pp",
       "source": "Calculado (Focus IPCA - Selic)",
-      "updatedAt": "2026-07-22 13:21:10"
+      "updatedAt": "2026-07-23 13:23:42"
     }
   },
   "metadata": {
-    "lastUpdate": "2026-07-22 13:21:10",
+    "lastUpdate": "2026-07-23 13:23:42",
     "successRate": "5/8",
     "apiStatus": {
       "selic": true,
@@ -96,21 +96,6 @@
     }
   },
   "history": {
-    "2026-06-22": {
-      "date": "2026-06-22",
-      "timestamp": "2026-06-22 21:33:00",
-      "data": {
-        "selic": 14.75,
-        "ipca": 4.14,
-        "poupanca": 0.72,
-        "dolar": 5.25,
-        "focus": 4.86,
-        "desemprego": 5.6,
-        "pib": 2.3,
-        "confianca": 101.5,
-        "spread": 0.11
-      }
-    },
     "2026-06-23": {
       "date": "2026-06-23",
       "timestamp": "2026-06-23 14:27:25",
@@ -560,9 +545,34 @@
         "confianca": 101.5,
         "spread": -9.39
       }
+    },
+    "2026-07-23": {
+      "date": "2026-07-23",
+      "timestamp": "2026-07-23 13:23:42",
+      "data": {
+        "selic": 14.25,
+        "ipca": 4.64,
+        "poupanca": 0.6741,
+        "dolar": 5.0638,
+        "focus": 4.86,
+        "desemprego": 5.6,
+        "pib": 2.3,
+        "confianca": 101.5,
+        "spread": -9.39
+      }
     }
   },
   "comunicados": [
+    {
+      "titulo": "Pesquisa da OCDE avalia conhecimentos e hábitos financeiros dos brasileiros",
+      "data": "2026-07-23T11:50:37Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Painel Descobrimento é cedido para exposição no Museu Nacional da China",
+      "data": "2026-07-22T20:33:35Z",
+      "url": "https://www.bcb.gov.br"
+    },
     {
       "titulo": "Ecossistema de duplicatas escriturais: títulos de crédito passarão a ser negociados em formato digital ",
       "data": "2026-07-03T13:54:54Z",
@@ -1051,16 +1061,6 @@
     {
       "titulo": "LIFT Data 2025: inscrições para participar do programa virtual de inovação vão até 13 de abril",
       "data": "2025-04-10T20:50:14Z",
-      "url": "https://www.bcb.gov.br"
-    },
-    {
-      "titulo": "BC lança consulta pública para dar tratamento contábil mais uniforme aos ativos e passivos de ações de sustentabilidade",
-      "data": "2025-04-10T19:39:26Z",
-      "url": "https://www.bcb.gov.br"
-    },
-    {
-      "titulo": "Inscrições para a Conferência Anual do BC estão abertas até 5 de maio",
-      "data": "2025-04-08T14:30:14Z",
       "url": "https://www.bcb.gov.br"
     }
   ]
