@@ -5,7 +5,7 @@
       "unit": "% a.a.",
       "trend": 0.0,
       "source": "Banco Central",
-      "updatedAt": "2026-08-13 12:44:27",
+      "updatedAt": "2026-08-14 12:41:09",
       "previousValue": 14.25,
       "previousDate": "2026-08-05"
     },
@@ -14,34 +14,34 @@
       "unit": "% 12m",
       "trend": 0.0,
       "source": "Banco Central",
-      "updatedAt": "2026-08-13 12:44:27",
+      "updatedAt": "2026-08-14 12:41:09",
       "previousValue": 4.64,
       "previousDate": "2026-08-10"
     },
     "poupanca": {
-      "value": 0.6717,
+      "value": 0.6699,
       "unit": "% a.m.",
-      "trend": 0.0,
+      "trend": -0.27,
       "source": "Banco Central",
-      "updatedAt": "2026-08-13 12:44:27",
-      "previousValue": 0.6718,
-      "previousDate": "2026-08-11"
+      "updatedAt": "2026-08-14 12:41:09",
+      "previousValue": 0.6717,
+      "previousDate": "2026-08-13"
     },
     "dolar": {
-      "value": 5.1639,
+      "value": 5.1859,
       "unit": "R$/USD",
-      "trend": 0.69,
+      "trend": 0.43,
       "source": "Banco Central",
-      "updatedAt": "2026-08-13 12:44:27",
-      "previousValue": 5.1285,
-      "previousDate": "2026-08-12"
+      "updatedAt": "2026-08-14 12:41:09",
+      "previousValue": 5.1639,
+      "previousDate": "2026-08-13"
     },
     "focus": {
       "value": 4.86,
       "unit": "% IPCA proj.",
       "trend": 0.0,
       "source": "Banco Central",
-      "updatedAt": "2026-08-13 12:44:27",
+      "updatedAt": "2026-08-14 12:41:09",
       "previousValue": null,
       "previousDate": null
     },
@@ -50,7 +50,7 @@
       "unit": "%",
       "trend": 0.0,
       "source": "IBGE",
-      "updatedAt": "2026-08-13 12:44:27",
+      "updatedAt": "2026-08-14 12:41:09",
       "previousValue": 5.6,
       "previousDate": "2026-07-29"
     },
@@ -59,7 +59,7 @@
       "unit": "% acum. 4tri",
       "trend": 0.0,
       "source": "IBGE",
-      "updatedAt": "2026-08-13 12:44:27",
+      "updatedAt": "2026-08-14 12:41:09",
       "previousValue": null,
       "previousDate": null
     },
@@ -68,7 +68,7 @@
       "unit": "pontos",
       "trend": 0.0,
       "source": "FGV/IBGE",
-      "updatedAt": "2026-08-13 12:44:27",
+      "updatedAt": "2026-08-14 12:41:09",
       "previousValue": null,
       "previousDate": null
     },
@@ -78,11 +78,11 @@
       "interpretation": "Mercado espera QUEDA de juros",
       "unit": "pp",
       "source": "Calculado (Focus IPCA - Selic)",
-      "updatedAt": "2026-08-13 12:44:27"
+      "updatedAt": "2026-08-14 12:41:09"
     }
   },
   "metadata": {
-    "lastUpdate": "2026-08-13 12:44:27",
+    "lastUpdate": "2026-08-14 12:41:09",
     "successRate": "5/8",
     "apiStatus": {
       "selic": true,
@@ -96,21 +96,6 @@
     }
   },
   "history": {
-    "2026-07-14": {
-      "date": "2026-07-14",
-      "timestamp": "2026-07-14 13:07:20",
-      "data": {
-        "selic": 14.25,
-        "ipca": 4.64,
-        "poupanca": 0.674,
-        "dolar": 5.1183,
-        "focus": 4.86,
-        "desemprego": 5.6,
-        "pib": 2.3,
-        "confianca": 101.5,
-        "spread": -9.39
-      }
-    },
     "2026-07-15": {
       "date": "2026-07-15",
       "timestamp": "2026-07-15 13:11:49",
@@ -560,9 +545,29 @@
         "confianca": 101.5,
         "spread": -9.14
       }
+    },
+    "2026-08-14": {
+      "date": "2026-08-14",
+      "timestamp": "2026-08-14 12:41:09",
+      "data": {
+        "selic": 14.0,
+        "ipca": 4.44,
+        "poupanca": 0.6699,
+        "dolar": 5.1859,
+        "focus": 4.86,
+        "desemprego": 5.4,
+        "pib": 2.3,
+        "confianca": 101.5,
+        "spread": -9.14
+      }
     }
   },
   "comunicados": [
+    {
+      "titulo": "BC reforça combate a fraudes com novas regras para transferências de ativos virtuais",
+      "data": "2026-08-13T15:42:03Z",
+      "url": "https://www.bcb.gov.br"
+    },
     {
       "titulo": "FMI e Banco Mundial reconhecem avanços do sistema financeiro e apontam agenda para fortalecer supervisão",
       "data": "2026-07-24T19:10:25Z",
@@ -1056,11 +1061,6 @@
     {
       "titulo": "LiveBC vai tratar da agenda estratégica para os próximos quatro anos ",
       "data": "2025-04-11T20:28:19Z",
-      "url": "https://www.bcb.gov.br"
-    },
-    {
-      "titulo": "Banco Central passa a divulgar dados setoriais do seu Índice de Atividade Econômica (IBC-Br)",
-      "data": "2025-04-11T12:28:12Z",
       "url": "https://www.bcb.gov.br"
     }
   ]
