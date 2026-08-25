@@ -5,7 +5,7 @@
       "unit": "% a.a.",
       "trend": 0.0,
       "source": "Banco Central",
-      "updatedAt": "2026-08-24 12:26:13",
+      "updatedAt": "2026-08-25 12:26:41",
       "previousValue": 14.25,
       "previousDate": "2026-08-05"
     },
@@ -14,34 +14,34 @@
       "unit": "% 12m",
       "trend": 0.0,
       "source": "Banco Central",
-      "updatedAt": "2026-08-24 12:26:13",
+      "updatedAt": "2026-08-25 12:26:41",
       "previousValue": 4.64,
       "previousDate": "2026-08-10"
     },
     "poupanca": {
-      "value": 0.6698,
+      "value": 0.6446,
       "unit": "% a.m.",
-      "trend": 0.0,
+      "trend": -3.76,
       "source": "Banco Central",
-      "updatedAt": "2026-08-24 12:26:13",
-      "previousValue": 0.6716,
-      "previousDate": "2026-08-21"
+      "updatedAt": "2026-08-25 12:26:41",
+      "previousValue": 0.6698,
+      "previousDate": "2026-08-24"
     },
     "dolar": {
-      "value": 5.1625,
+      "value": 5.1512,
       "unit": "R$/USD",
-      "trend": 0.0,
+      "trend": -0.22,
       "source": "Banco Central",
-      "updatedAt": "2026-08-24 12:26:13",
-      "previousValue": 5.1862,
-      "previousDate": "2026-08-21"
+      "updatedAt": "2026-08-25 12:26:41",
+      "previousValue": 5.1625,
+      "previousDate": "2026-08-24"
     },
     "focus": {
       "value": 4.86,
       "unit": "% IPCA proj.",
       "trend": 0.0,
       "source": "Banco Central",
-      "updatedAt": "2026-08-24 12:26:13",
+      "updatedAt": "2026-08-25 12:26:41",
       "previousValue": null,
       "previousDate": null
     },
@@ -50,7 +50,7 @@
       "unit": "%",
       "trend": 0.0,
       "source": "IBGE",
-      "updatedAt": "2026-08-24 12:26:13",
+      "updatedAt": "2026-08-25 12:26:41",
       "previousValue": 5.6,
       "previousDate": "2026-07-29"
     },
@@ -59,7 +59,7 @@
       "unit": "% acum. 4tri",
       "trend": 0.0,
       "source": "IBGE",
-      "updatedAt": "2026-08-24 12:26:13",
+      "updatedAt": "2026-08-25 12:26:41",
       "previousValue": null,
       "previousDate": null
     },
@@ -68,7 +68,7 @@
       "unit": "pontos",
       "trend": 0.0,
       "source": "FGV/IBGE",
-      "updatedAt": "2026-08-24 12:26:13",
+      "updatedAt": "2026-08-25 12:26:41",
       "previousValue": null,
       "previousDate": null
     },
@@ -78,11 +78,11 @@
       "interpretation": "Mercado espera QUEDA de juros",
       "unit": "pp",
       "source": "Calculado (Focus IPCA - Selic)",
-      "updatedAt": "2026-08-24 12:26:13"
+      "updatedAt": "2026-08-25 12:26:41"
     }
   },
   "metadata": {
-    "lastUpdate": "2026-08-24 12:26:13",
+    "lastUpdate": "2026-08-25 12:26:41",
     "successRate": "5/8",
     "apiStatus": {
       "selic": true,
@@ -96,21 +96,6 @@
     }
   },
   "history": {
-    "2026-07-25": {
-      "date": "2026-07-25",
-      "timestamp": "2026-07-25 13:00:56",
-      "data": {
-        "selic": 14.25,
-        "ipca": 4.64,
-        "poupanca": 0.6723,
-        "dolar": 5.0666,
-        "focus": 4.86,
-        "desemprego": 5.6,
-        "pib": 2.3,
-        "confianca": 101.5,
-        "spread": -9.39
-      }
-    },
     "2026-07-26": {
       "date": "2026-07-26",
       "timestamp": "2026-07-26 12:57:45",
@@ -560,9 +545,29 @@
         "confianca": 101.5,
         "spread": -9.14
       }
+    },
+    "2026-08-25": {
+      "date": "2026-08-25",
+      "timestamp": "2026-08-25 12:26:41",
+      "data": {
+        "selic": 14.0,
+        "ipca": 4.44,
+        "poupanca": 0.6446,
+        "dolar": 5.1512,
+        "focus": 4.86,
+        "desemprego": 5.4,
+        "pib": 2.3,
+        "confianca": 101.5,
+        "spread": -9.14
+      }
     }
   },
   "comunicados": [
+    {
+      "titulo": "Banco Central recebe inscrições para três vagas no Programa de Estágio de Pós-Graduação em Pesquisa (PEPP) até 18 de setembro",
+      "data": "2026-08-24T15:19:33Z",
+      "url": "https://www.bcb.gov.br"
+    },
     {
       "titulo": "Pix consolida liderança nos pagamentos digitais e projeta novas evoluções até 2030",
       "data": "2026-08-17T12:46:52Z",
@@ -1056,11 +1061,6 @@
     {
       "titulo": "BC elenca prioridades regulatórias para 2025/2026",
       "data": "2025-04-28T18:23:41Z",
-      "url": "https://www.bcb.gov.br"
-    },
-    {
-      "titulo": "Banco Central quer ouvir a sociedade sobre “tokenização” de cartões",
-      "data": "2025-04-16T18:51:02Z",
       "url": "https://www.bcb.gov.br"
     }
   ]
