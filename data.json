@@ -5,43 +5,43 @@
       "unit": "% a.a.",
       "trend": 0.0,
       "source": "Banco Central",
-      "updatedAt": "2026-09-10 15:28:31",
+      "updatedAt": "2026-09-11 15:30:36",
       "previousValue": null,
       "previousDate": null
     },
     "ipca": {
-      "value": 4.44,
+      "value": 4.22,
       "unit": "% 12m",
-      "trend": 0.0,
+      "trend": -4.95,
       "source": "Banco Central",
-      "updatedAt": "2026-09-10 15:28:31",
-      "previousValue": 4.64,
-      "previousDate": "2026-08-10"
+      "updatedAt": "2026-09-11 15:30:36",
+      "previousValue": 4.44,
+      "previousDate": "2026-09-10"
     },
     "poupanca": {
-      "value": 0.6717,
+      "value": 0.6716,
       "unit": "% a.m.",
-      "trend": 0.0,
+      "trend": -0.01,
       "source": "Banco Central",
-      "updatedAt": "2026-09-10 15:28:31",
-      "previousValue": 0.6474,
-      "previousDate": "2026-09-08"
+      "updatedAt": "2026-09-11 15:30:36",
+      "previousValue": 0.6717,
+      "previousDate": "2026-09-10"
     },
     "dolar": {
-      "value": 5.0979,
+      "value": 5.1149,
       "unit": "R$/USD",
-      "trend": 0.24,
+      "trend": 0.33,
       "source": "Banco Central",
-      "updatedAt": "2026-09-10 15:28:31",
-      "previousValue": 5.0856,
-      "previousDate": "2026-09-09"
+      "updatedAt": "2026-09-11 15:30:36",
+      "previousValue": 5.0979,
+      "previousDate": "2026-09-10"
     },
     "focus": {
       "value": 4.86,
       "unit": "% IPCA proj.",
       "trend": 0.0,
       "source": "Banco Central",
-      "updatedAt": "2026-09-10 15:28:31",
+      "updatedAt": "2026-09-11 15:30:36",
       "previousValue": null,
       "previousDate": null
     },
@@ -50,7 +50,7 @@
       "unit": "%",
       "trend": 0.0,
       "source": "IBGE",
-      "updatedAt": "2026-09-10 15:28:31",
+      "updatedAt": "2026-09-11 15:30:36",
       "previousValue": 5.4,
       "previousDate": "2026-08-26"
     },
@@ -59,7 +59,7 @@
       "unit": "% acum. 4tri",
       "trend": 0.0,
       "source": "IBGE",
-      "updatedAt": "2026-09-10 15:28:31",
+      "updatedAt": "2026-09-11 15:30:36",
       "previousValue": null,
       "previousDate": null
     },
@@ -68,7 +68,7 @@
       "unit": "pontos",
       "trend": 0.0,
       "source": "FGV/IBGE",
-      "updatedAt": "2026-09-10 15:28:31",
+      "updatedAt": "2026-09-11 15:30:36",
       "previousValue": null,
       "previousDate": null
     },
@@ -78,11 +78,11 @@
       "interpretation": "Mercado espera QUEDA de juros",
       "unit": "pp",
       "source": "Calculado (Focus IPCA - Selic)",
-      "updatedAt": "2026-09-10 15:28:31"
+      "updatedAt": "2026-09-11 15:30:36"
     }
   },
   "metadata": {
-    "lastUpdate": "2026-09-10 15:28:31",
+    "lastUpdate": "2026-09-11 15:30:36",
     "successRate": "5/8",
     "apiStatus": {
       "selic": true,
@@ -96,21 +96,6 @@
     }
   },
   "history": {
-    "2026-08-11": {
-      "date": "2026-08-11",
-      "timestamp": "2026-08-11 12:40:52",
-      "data": {
-        "selic": 14.0,
-        "ipca": 4.44,
-        "poupanca": 0.6718,
-        "dolar": 5.0963,
-        "focus": 4.86,
-        "desemprego": 5.4,
-        "pib": 2.3,
-        "confianca": 101.5,
-        "spread": -9.14
-      }
-    },
     "2026-08-12": {
       "date": "2026-08-12",
       "timestamp": "2026-08-12 12:43:53",
@@ -560,9 +545,29 @@
         "confianca": 101.5,
         "spread": -9.14
       }
+    },
+    "2026-09-11": {
+      "date": "2026-09-11",
+      "timestamp": "2026-09-11 15:30:36",
+      "data": {
+        "selic": 14.0,
+        "ipca": 4.22,
+        "poupanca": 0.6716,
+        "dolar": 5.1149,
+        "focus": 4.86,
+        "desemprego": 5.3,
+        "pib": 2.3,
+        "confianca": 101.5,
+        "spread": -9.14
+      }
     }
   },
   "comunicados": [
+    {
+      "titulo": "Novas regras ampliam transparência sobre riscos sociais, ambientais e climáticos no Sistema Financeiro Nacional",
+      "data": "2026-09-10T21:31:39Z",
+      "url": "https://www.bcb.gov.br"
+    },
     {
       "titulo": "Ajustes pontuais organizam regras operacionais do Pix Automático",
       "data": "2026-09-08T14:03:02Z",
@@ -1056,11 +1061,6 @@
     {
       "titulo": "Primeira LiveBC de 2025 detalha o processo de planejamento estratégico do Banco Central",
       "data": "2025-05-13T14:21:59Z",
-      "url": "https://www.bcb.gov.br"
-    },
-    {
-      "titulo": "Banco Central e Fenasbac promovem amanhã o LIFT Day 2025",
-      "data": "2025-04-29T18:08:03Z",
       "url": "https://www.bcb.gov.br"
     }
   ]
