@@ -5,7 +5,7 @@
       "unit": "% a.a.",
       "trend": 0.0,
       "source": "Banco Central",
-      "updatedAt": "2026-09-28 18:56:36",
+      "updatedAt": "2026-09-29 17:15:07",
       "previousValue": 14.0,
       "previousDate": "2026-09-16"
     },
@@ -14,34 +14,34 @@
       "unit": "% 12m",
       "trend": 0.0,
       "source": "Banco Central",
-      "updatedAt": "2026-09-28 18:56:36",
+      "updatedAt": "2026-09-29 17:15:07",
       "previousValue": 4.44,
       "previousDate": "2026-09-10"
     },
     "poupanca": {
-      "value": 0.6339,
+      "value": 0.6664,
       "unit": "% a.m.",
-      "trend": -4.73,
+      "trend": 5.13,
       "source": "Banco Central",
-      "updatedAt": "2026-09-28 18:56:36",
-      "previousValue": 0.6654,
-      "previousDate": "2026-09-27"
+      "updatedAt": "2026-09-29 17:15:07",
+      "previousValue": 0.6339,
+      "previousDate": "2026-09-28"
     },
     "dolar": {
-      "value": 5.2132,
+      "value": 5.2204,
       "unit": "R$/USD",
-      "trend": 0.27,
+      "trend": 0.14,
       "source": "Banco Central",
-      "updatedAt": "2026-09-28 18:56:36",
-      "previousValue": 5.1991,
-      "previousDate": "2026-09-27"
+      "updatedAt": "2026-09-29 17:15:07",
+      "previousValue": 5.2132,
+      "previousDate": "2026-09-28"
     },
     "focus": {
       "value": 4.86,
       "unit": "% IPCA proj.",
       "trend": 0.0,
       "source": "Banco Central",
-      "updatedAt": "2026-09-28 18:56:36",
+      "updatedAt": "2026-09-29 17:15:07",
       "previousValue": null,
       "previousDate": null
     },
@@ -50,7 +50,7 @@
       "unit": "%",
       "trend": 0.0,
       "source": "IBGE",
-      "updatedAt": "2026-09-28 18:56:36",
+      "updatedAt": "2026-09-29 17:15:07",
       "previousValue": null,
       "previousDate": null
     },
@@ -59,7 +59,7 @@
       "unit": "% acum. 4tri",
       "trend": 0.0,
       "source": "IBGE",
-      "updatedAt": "2026-09-28 18:56:36",
+      "updatedAt": "2026-09-29 17:15:07",
       "previousValue": null,
       "previousDate": null
     },
@@ -68,7 +68,7 @@
       "unit": "pontos",
       "trend": 0.0,
       "source": "FGV/IBGE",
-      "updatedAt": "2026-09-28 18:56:36",
+      "updatedAt": "2026-09-29 17:15:07",
       "previousValue": null,
       "previousDate": null
     },
@@ -78,11 +78,11 @@
       "interpretation": "Mercado espera QUEDA de juros",
       "unit": "pp",
       "source": "Calculado (Focus IPCA - Selic)",
-      "updatedAt": "2026-09-28 18:56:36"
+      "updatedAt": "2026-09-29 17:15:07"
     }
   },
   "metadata": {
-    "lastUpdate": "2026-09-28 18:56:36",
+    "lastUpdate": "2026-09-29 17:15:07",
     "successRate": "5/8",
     "apiStatus": {
       "selic": true,
@@ -96,21 +96,6 @@
     }
   },
   "history": {
-    "2026-08-29": {
-      "date": "2026-08-29",
-      "timestamp": "2026-08-29 15:55:44",
-      "data": {
-        "selic": 14.0,
-        "ipca": 4.44,
-        "poupanca": 0.67,
-        "dolar": 5.2005,
-        "focus": 4.86,
-        "desemprego": 5.3,
-        "pib": 2.3,
-        "confianca": 101.5,
-        "spread": -9.14
-      }
-    },
     "2026-08-30": {
       "date": "2026-08-30",
       "timestamp": "2026-08-30 15:42:11",
@@ -560,9 +545,29 @@
         "confianca": 101.5,
         "spread": -8.89
       }
+    },
+    "2026-09-29": {
+      "date": "2026-09-29",
+      "timestamp": "2026-09-29 17:15:07",
+      "data": {
+        "selic": 13.75,
+        "ipca": 4.22,
+        "poupanca": 0.6664,
+        "dolar": 5.2204,
+        "focus": 4.86,
+        "desemprego": 5.3,
+        "pib": 2.3,
+        "confianca": 101.5,
+        "spread": -8.89
+      }
     }
   },
   "comunicados": [
+    {
+      "titulo": "Pix e TIPS: parceria entre Brasil e Europa abre caminho para pagamentos globais instantâneos",
+      "data": "2026-09-29T11:47:21Z",
+      "url": "https://www.bcb.gov.br"
+    },
     {
       "titulo": "Banco Central propõe atualização de regras contábeis para reforçar convergência aos padrões internacionais",
       "data": "2026-09-22T11:19:52Z",
@@ -1056,11 +1061,6 @@
     {
       "titulo": "Confira quais os meios de pagamentos mais utilizados no Brasil em 2024",
       "data": "2025-05-16T13:17:37Z",
-      "url": "https://www.bcb.gov.br"
-    },
-    {
-      "titulo": "Almanaque conta 60 anos de história do Banco Central",
-      "data": "2025-05-14T14:14:13Z",
       "url": "https://www.bcb.gov.br"
     }
   ]
