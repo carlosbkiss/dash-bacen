@@ -5,7 +5,7 @@
       "unit": "% a.a.",
       "trend": 0.0,
       "source": "Banco Central",
-      "updatedAt": "2026-10-04 16:09:30",
+      "updatedAt": "2026-10-06 17:35:42",
       "previousValue": 14.0,
       "previousDate": "2026-09-16"
     },
@@ -14,34 +14,34 @@
       "unit": "% 12m",
       "trend": 0.0,
       "source": "Banco Central",
-      "updatedAt": "2026-10-04 16:09:30",
+      "updatedAt": "2026-10-06 17:35:42",
       "previousValue": 4.44,
       "previousDate": "2026-09-10"
     },
     "poupanca": {
-      "value": 0.6624,
+      "value": 0.6638,
       "unit": "% a.m.",
-      "trend": 0.0,
+      "trend": 0.21,
       "source": "Banco Central",
-      "updatedAt": "2026-10-04 16:09:30",
-      "previousValue": 0.6664,
-      "previousDate": "2026-10-01"
+      "updatedAt": "2026-10-06 17:35:42",
+      "previousValue": 0.6624,
+      "previousDate": "2026-10-04"
     },
     "dolar": {
-      "value": 5.2238,
+      "value": 4.9698,
       "unit": "R$/USD",
-      "trend": 0.0,
+      "trend": -4.86,
       "source": "Banco Central",
-      "updatedAt": "2026-10-04 16:09:30",
-      "previousValue": 5.2079,
-      "previousDate": "2026-10-01"
+      "updatedAt": "2026-10-06 17:35:42",
+      "previousValue": 5.2238,
+      "previousDate": "2026-10-04"
     },
     "focus": {
       "value": 4.86,
       "unit": "% IPCA proj.",
       "trend": 0.0,
       "source": "Banco Central",
-      "updatedAt": "2026-10-04 16:09:30",
+      "updatedAt": "2026-10-06 17:35:42",
       "previousValue": null,
       "previousDate": null
     },
@@ -50,7 +50,7 @@
       "unit": "%",
       "trend": 0.0,
       "source": "IBGE",
-      "updatedAt": "2026-10-04 16:09:30",
+      "updatedAt": "2026-10-06 17:35:42",
       "previousValue": null,
       "previousDate": null
     },
@@ -59,7 +59,7 @@
       "unit": "% acum. 4tri",
       "trend": 0.0,
       "source": "IBGE",
-      "updatedAt": "2026-10-04 16:09:30",
+      "updatedAt": "2026-10-06 17:35:42",
       "previousValue": null,
       "previousDate": null
     },
@@ -68,7 +68,7 @@
       "unit": "pontos",
       "trend": 0.0,
       "source": "FGV/IBGE",
-      "updatedAt": "2026-10-04 16:09:30",
+      "updatedAt": "2026-10-06 17:35:42",
       "previousValue": null,
       "previousDate": null
     },
@@ -78,16 +78,16 @@
       "interpretation": "Mercado espera QUEDA de juros",
       "unit": "pp",
       "source": "Calculado (Focus IPCA - Selic)",
-      "updatedAt": "2026-10-04 16:09:30"
+      "updatedAt": "2026-10-06 17:35:42"
     }
   },
   "metadata": {
-    "lastUpdate": "2026-10-04 16:09:30",
-    "successRate": "2/8",
+    "lastUpdate": "2026-10-06 17:35:42",
+    "successRate": "5/8",
     "apiStatus": {
-      "selic": false,
-      "ipca": false,
-      "poupanca": false,
+      "selic": true,
+      "ipca": true,
+      "poupanca": true,
       "dolar": true,
       "focus": false,
       "desemprego": true,
@@ -96,21 +96,6 @@
     }
   },
   "history": {
-    "2026-09-04": {
-      "date": "2026-09-04",
-      "timestamp": "2026-09-04 15:25:53",
-      "data": {
-        "selic": 14.0,
-        "ipca": 4.44,
-        "poupanca": 0.6698,
-        "dolar": 5.0962,
-        "focus": 4.86,
-        "desemprego": 5.3,
-        "pib": 2.3,
-        "confianca": 101.5,
-        "spread": -9.14
-      }
-    },
     "2026-09-05": {
       "date": "2026-09-05",
       "timestamp": "2026-09-05 14:12:50",
@@ -560,9 +545,39 @@
         "confianca": 101.5,
         "spread": -8.89
       }
+    },
+    "2026-10-06": {
+      "date": "2026-10-06",
+      "timestamp": "2026-10-06 17:35:42",
+      "data": {
+        "selic": 13.75,
+        "ipca": 4.22,
+        "poupanca": 0.6638,
+        "dolar": 4.9698,
+        "focus": 4.86,
+        "desemprego": 5.3,
+        "pib": 2.3,
+        "confianca": 101.5,
+        "spread": -8.89
+      }
     }
   },
   "comunicados": [
+    {
+      "titulo": "BC passa a divulgar mensalmente indicadores de reajustes salariais negociados",
+      "data": "2026-10-06T10:34:47Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "BC moderniza apresentação de dados sobre intervenções cambiais",
+      "data": "2026-10-05T11:30:53Z",
+      "url": "https://www.bcb.gov.br"
+    },
+    {
+      "titulo": "Pix amplia funcionalidades e reforça segurança com nova rodada de aperfeiçoamentos regulatórios",
+      "data": "2026-10-05T11:30:44Z",
+      "url": "https://www.bcb.gov.br"
+    },
     {
       "titulo": "Pix e TIPS: parceria entre Brasil e Europa abre caminho para pagamentos globais instantâneos",
       "data": "2026-09-29T11:47:21Z",
@@ -1046,21 +1061,6 @@
     {
       "titulo": "Conferência Anual do BC: como a transparência na comunicação influencia a economia?",
       "data": "2025-05-29T16:32:06Z",
-      "url": "https://www.bcb.gov.br"
-    },
-    {
-      "titulo": "BC lança novos serviços para reforçar segurança e facilitar a vida financeira do cidadão",
-      "data": "2025-05-28T11:36:16Z",
-      "url": "https://www.bcb.gov.br"
-    },
-    {
-      "titulo": "Câmbio flutuante, mercado de câmbio no Brasil e o papel do BC",
-      "data": "2025-05-16T19:11:55Z",
-      "url": "https://www.bcb.gov.br"
-    },
-    {
-      "titulo": "Confira quais os meios de pagamentos mais utilizados no Brasil em 2024",
-      "data": "2025-05-16T13:17:37Z",
       "url": "https://www.bcb.gov.br"
     }
   ]
