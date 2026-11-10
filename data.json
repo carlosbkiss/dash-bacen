@@ -5,7 +5,7 @@
       "unit": "% a.a.",
       "trend": 0.0,
       "source": "Banco Central",
-      "updatedAt": "2026-11-09 21:48:51",
+      "updatedAt": "2026-11-10 19:06:00",
       "previousValue": null,
       "previousDate": null
     },
@@ -14,34 +14,34 @@
       "unit": "% 12m",
       "trend": 0.0,
       "source": "Banco Central",
-      "updatedAt": "2026-11-09 21:48:51",
+      "updatedAt": "2026-11-10 19:06:00",
       "previousValue": null,
       "previousDate": null
     },
     "poupanca": {
-      "value": 0.6494,
+      "value": 0.6701,
       "unit": "% a.m.",
-      "trend": -3.12,
+      "trend": 3.19,
       "source": "Banco Central",
-      "updatedAt": "2026-11-09 21:48:51",
-      "previousValue": 0.6703,
-      "previousDate": "2026-11-08"
+      "updatedAt": "2026-11-10 19:06:00",
+      "previousValue": 0.6494,
+      "previousDate": "2026-11-09"
     },
     "dolar": {
-      "value": 5.5146,
+      "value": 5.584,
       "unit": "R$/USD",
-      "trend": 0.24,
+      "trend": 1.26,
       "source": "Banco Central",
-      "updatedAt": "2026-11-09 21:48:51",
-      "previousValue": 5.5013,
-      "previousDate": "2026-11-08"
+      "updatedAt": "2026-11-10 19:06:00",
+      "previousValue": 5.5146,
+      "previousDate": "2026-11-09"
     },
     "focus": {
       "value": 4.86,
       "unit": "% IPCA proj.",
       "trend": 0.0,
       "source": "Banco Central",
-      "updatedAt": "2026-11-09 21:48:51",
+      "updatedAt": "2026-11-10 19:06:00",
       "previousValue": null,
       "previousDate": null
     },
@@ -50,7 +50,7 @@
       "unit": "%",
       "trend": 0.0,
       "source": "IBGE",
-      "updatedAt": "2026-11-09 21:48:51",
+      "updatedAt": "2026-11-10 19:06:00",
       "previousValue": null,
       "previousDate": null
     },
@@ -59,7 +59,7 @@
       "unit": "% acum. 4tri",
       "trend": 0.0,
       "source": "IBGE",
-      "updatedAt": "2026-11-09 21:48:51",
+      "updatedAt": "2026-11-10 19:06:00",
       "previousValue": null,
       "previousDate": null
     },
@@ -68,7 +68,7 @@
       "unit": "pontos",
       "trend": 0.0,
       "source": "FGV/IBGE",
-      "updatedAt": "2026-11-09 21:48:51",
+      "updatedAt": "2026-11-10 19:06:00",
       "previousValue": null,
       "previousDate": null
     },
@@ -78,11 +78,11 @@
       "interpretation": "Mercado espera QUEDA de juros",
       "unit": "pp",
       "source": "Calculado (Focus IPCA - Selic)",
-      "updatedAt": "2026-11-09 21:48:51"
+      "updatedAt": "2026-11-10 19:06:00"
     }
   },
   "metadata": {
-    "lastUpdate": "2026-11-09 21:48:51",
+    "lastUpdate": "2026-11-10 19:06:00",
     "successRate": "4/8",
     "apiStatus": {
       "selic": true,
@@ -96,21 +96,6 @@
     }
   },
   "history": {
-    "2026-10-10": {
-      "date": "2026-10-10",
-      "timestamp": "2026-10-10 16:34:57",
-      "data": {
-        "selic": 13.75,
-        "ipca": 4.58,
-        "poupanca": 0.6218,
-        "dolar": 4.9892,
-        "focus": 4.86,
-        "desemprego": 5.3,
-        "pib": 2.3,
-        "confianca": 101.5,
-        "spread": -8.89
-      }
-    },
     "2026-10-11": {
       "date": "2026-10-11",
       "timestamp": "2026-10-11 16:59:48",
@@ -560,9 +545,29 @@
         "confianca": 101.5,
         "spread": -8.89
       }
+    },
+    "2026-11-10": {
+      "date": "2026-11-10",
+      "timestamp": "2026-11-10 19:06:00",
+      "data": {
+        "selic": 13.75,
+        "ipca": 4.58,
+        "poupanca": 0.6701,
+        "dolar": 5.584,
+        "focus": 4.86,
+        "desemprego": 5.3,
+        "pib": 2.3,
+        "confianca": 101.5,
+        "spread": -8.89
+      }
     }
   },
   "comunicados": [
+    {
+      "titulo": "Novas regras reforçam segurança e ampliam uso do Open Finance por clientes pessoas jurídicas",
+      "data": "2026-11-10T13:54:49Z",
+      "url": "https://www.bcb.gov.br"
+    },
     {
       "titulo": "BC reforça proteção ao consumidor com novas regras para oferta e contratação de crédito",
       "data": "2026-11-05T14:51:03Z",
@@ -1056,11 +1061,6 @@
     {
       "titulo": "Pix Automático chega em 16 de junho",
       "data": "2025-06-04T12:56:42Z",
-      "url": "https://www.bcb.gov.br"
-    },
-    {
-      "titulo": "Plano de abertura de dados prevê a disponibilização de novas bases de dados até 2027",
-      "data": "2025-06-03T14:25:23Z",
       "url": "https://www.bcb.gov.br"
     }
   ]
