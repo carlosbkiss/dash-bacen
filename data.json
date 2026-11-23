@@ -5,7 +5,7 @@
       "unit": "% a.a.",
       "trend": 0.0,
       "source": "Banco Central",
-      "updatedAt": "2026-11-22 18:49:39",
+      "updatedAt": "2026-11-23 23:03:19",
       "previousValue": null,
       "previousDate": null
     },
@@ -14,7 +14,7 @@
       "unit": "% 12m",
       "trend": 0.0,
       "source": "Banco Central",
-      "updatedAt": "2026-11-22 18:49:39",
+      "updatedAt": "2026-11-23 23:03:19",
       "previousValue": 4.58,
       "previousDate": "2026-11-11"
     },
@@ -23,25 +23,25 @@
       "unit": "% a.m.",
       "trend": 0.0,
       "source": "Banco Central",
-      "updatedAt": "2026-11-22 18:49:39",
+      "updatedAt": "2026-11-23 23:03:19",
       "previousValue": 0.67,
       "previousDate": "2026-11-17"
     },
     "dolar": {
-      "value": 5.8889,
+      "value": 5.9708,
       "unit": "R$/USD",
-      "trend": 0.0,
+      "trend": 1.39,
       "source": "Banco Central",
-      "updatedAt": "2026-11-22 18:49:39",
-      "previousValue": 5.8102,
-      "previousDate": "2026-11-18"
+      "updatedAt": "2026-11-23 23:03:19",
+      "previousValue": 5.8889,
+      "previousDate": "2026-11-22"
     },
     "focus": {
       "value": 4.86,
       "unit": "% IPCA proj.",
       "trend": 0.0,
       "source": "Banco Central",
-      "updatedAt": "2026-11-22 18:49:39",
+      "updatedAt": "2026-11-23 23:03:19",
       "previousValue": null,
       "previousDate": null
     },
@@ -50,7 +50,7 @@
       "unit": "%",
       "trend": 0.0,
       "source": "IBGE",
-      "updatedAt": "2026-11-22 18:49:39",
+      "updatedAt": "2026-11-23 23:03:19",
       "previousValue": 5.3,
       "previousDate": "2026-11-15"
     },
@@ -59,7 +59,7 @@
       "unit": "% acum. 4tri",
       "trend": 0.0,
       "source": "IBGE",
-      "updatedAt": "2026-11-22 18:49:39",
+      "updatedAt": "2026-11-23 23:03:19",
       "previousValue": null,
       "previousDate": null
     },
@@ -68,7 +68,7 @@
       "unit": "pontos",
       "trend": 0.0,
       "source": "FGV/IBGE",
-      "updatedAt": "2026-11-22 18:49:39",
+      "updatedAt": "2026-11-23 23:03:19",
       "previousValue": null,
       "previousDate": null
     },
@@ -78,15 +78,15 @@
       "interpretation": "Mercado espera QUEDA de juros",
       "unit": "pp",
       "source": "Calculado (Focus IPCA - Selic)",
-      "updatedAt": "2026-11-22 18:49:39"
+      "updatedAt": "2026-11-23 23:03:19"
     }
   },
   "metadata": {
-    "lastUpdate": "2026-11-22 18:49:39",
-    "successRate": "4/8",
+    "lastUpdate": "2026-11-23 23:03:19",
+    "successRate": "5/8",
     "apiStatus": {
       "selic": true,
-      "ipca": false,
+      "ipca": true,
       "poupanca": true,
       "dolar": true,
       "focus": false,
@@ -96,21 +96,6 @@
     }
   },
   "history": {
-    "2026-10-23": {
-      "date": "2026-10-23",
-      "timestamp": "2026-10-23 16:10:26",
-      "data": {
-        "selic": 13.75,
-        "ipca": 4.58,
-        "poupanca": 0.6267,
-        "dolar": 5.0383,
-        "focus": 4.86,
-        "desemprego": 5.3,
-        "pib": 2.3,
-        "confianca": 101.5,
-        "spread": -8.89
-      }
-    },
     "2026-10-24": {
       "date": "2026-10-24",
       "timestamp": "2026-10-24 15:07:28",
@@ -560,9 +545,29 @@
         "confianca": 101.5,
         "spread": -8.89
       }
+    },
+    "2026-11-23": {
+      "date": "2026-11-23",
+      "timestamp": "2026-11-23 23:03:19",
+      "data": {
+        "selic": 13.75,
+        "ipca": 4.63,
+        "poupanca": 0.6701,
+        "dolar": 5.9708,
+        "focus": 4.86,
+        "desemprego": 5.2,
+        "pib": 2.3,
+        "confianca": 101.5,
+        "spread": -8.89
+      }
     }
   },
   "comunicados": [
+    {
+      "titulo": "Aprender Valor amplia conteúdo e passa a oferecer educação previdenciária nas escolas",
+      "data": "2026-11-23T13:59:14Z",
+      "url": "https://www.bcb.gov.br"
+    },
     {
       "titulo": "Pix celebra 6 anos como motor de inclusão e eficiência financeira em todo o Brasil ",
       "data": "2026-11-16T10:46:11Z",
@@ -1056,11 +1061,6 @@
     {
       "titulo": "LiveBC detalhou o Pix Automático",
       "data": "2025-06-18T13:38:11Z",
-      "url": "https://www.bcb.gov.br"
-    },
-    {
-      "titulo": "LiveBC: como funciona o Pix Automático e o que ele muda no dia a dia das empresas e pessoas",
-      "data": "2025-06-13T20:05:36Z",
       "url": "https://www.bcb.gov.br"
     }
   ]
