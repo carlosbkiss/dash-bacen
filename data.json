@@ -5,7 +5,7 @@
       "unit": "% a.a.",
       "trend": 0.0,
       "source": "Banco Central",
-      "updatedAt": "2026-11-26 20:42:16",
+      "updatedAt": "2026-11-27 20:27:53",
       "previousValue": null,
       "previousDate": null
     },
@@ -14,52 +14,52 @@
       "unit": "% 12m",
       "trend": 0.0,
       "source": "Banco Central",
-      "updatedAt": "2026-11-26 20:42:16",
+      "updatedAt": "2026-11-27 20:27:53",
       "previousValue": 4.58,
       "previousDate": "2026-11-11"
     },
     "poupanca": {
-      "value": 0.6721,
+      "value": 0.6699,
       "unit": "% a.m.",
-      "trend": 0.03,
+      "trend": -0.33,
       "source": "Banco Central",
-      "updatedAt": "2026-11-26 20:42:16",
-      "previousValue": 0.6719,
-      "previousDate": "2026-11-25"
+      "updatedAt": "2026-11-27 20:27:53",
+      "previousValue": 0.6721,
+      "previousDate": "2026-11-26"
     },
     "dolar": {
-      "value": 5.7446,
+      "value": 5.543,
       "unit": "R$/USD",
-      "trend": -2.34,
+      "trend": -3.51,
       "source": "Banco Central",
-      "updatedAt": "2026-11-26 20:42:16",
-      "previousValue": 5.8825,
-      "previousDate": "2026-11-25"
+      "updatedAt": "2026-11-27 20:27:53",
+      "previousValue": 5.7446,
+      "previousDate": "2026-11-26"
     },
     "focus": {
       "value": 4.86,
       "unit": "% IPCA proj.",
       "trend": 0.0,
       "source": "Banco Central",
-      "updatedAt": "2026-11-26 20:42:16",
+      "updatedAt": "2026-11-27 20:27:53",
       "previousValue": null,
       "previousDate": null
     },
     "desemprego": {
-      "value": 5.2,
+      "value": 5.1,
       "unit": "%",
-      "trend": 0.0,
+      "trend": -1.92,
       "source": "IBGE",
-      "updatedAt": "2026-11-26 20:42:16",
-      "previousValue": 5.3,
-      "previousDate": "2026-11-15"
+      "updatedAt": "2026-11-27 20:27:53",
+      "previousValue": 5.2,
+      "previousDate": "2026-11-26"
     },
     "pib": {
       "value": 2.3,
       "unit": "% acum. 4tri",
       "trend": 0.0,
       "source": "IBGE",
-      "updatedAt": "2026-11-26 20:42:16",
+      "updatedAt": "2026-11-27 20:27:53",
       "previousValue": null,
       "previousDate": null
     },
@@ -68,7 +68,7 @@
       "unit": "pontos",
       "trend": 0.0,
       "source": "FGV/IBGE",
-      "updatedAt": "2026-11-26 20:42:16",
+      "updatedAt": "2026-11-27 20:27:53",
       "previousValue": null,
       "previousDate": null
     },
@@ -78,11 +78,11 @@
       "interpretation": "Mercado espera QUEDA de juros",
       "unit": "pp",
       "source": "Calculado (Focus IPCA - Selic)",
-      "updatedAt": "2026-11-26 20:42:16"
+      "updatedAt": "2026-11-27 20:27:53"
     }
   },
   "metadata": {
-    "lastUpdate": "2026-11-26 20:42:16",
+    "lastUpdate": "2026-11-27 20:27:53",
     "successRate": "5/8",
     "apiStatus": {
       "selic": true,
@@ -96,21 +96,6 @@
     }
   },
   "history": {
-    "2026-10-27": {
-      "date": "2026-10-27",
-      "timestamp": "2026-10-27 17:06:40",
-      "data": {
-        "selic": 13.75,
-        "ipca": 4.58,
-        "poupanca": 0.6607,
-        "dolar": 5.3346,
-        "focus": 4.86,
-        "desemprego": 5.3,
-        "pib": 2.3,
-        "confianca": 101.5,
-        "spread": -8.89
-      }
-    },
     "2026-10-28": {
       "date": "2026-10-28",
       "timestamp": "2026-10-28 17:41:31",
@@ -560,9 +545,29 @@
         "confianca": 101.5,
         "spread": -8.89
       }
+    },
+    "2026-11-27": {
+      "date": "2026-11-27",
+      "timestamp": "2026-11-27 20:27:53",
+      "data": {
+        "selic": 13.75,
+        "ipca": 4.63,
+        "poupanca": 0.6699,
+        "dolar": 5.543,
+        "focus": 4.86,
+        "desemprego": 5.1,
+        "pib": 2.3,
+        "confianca": 101.5,
+        "spread": -8.89
+      }
     }
   },
   "comunicados": [
+    {
+      "titulo": "Fórum Pix projeta avanços para 2027",
+      "data": "2026-11-26T20:45:55Z",
+      "url": "https://www.bcb.gov.br"
+    },
     {
       "titulo": "Bancos centrais de países de língua portuguesa criam rede permanente de cooperação",
       "data": "2026-11-24T14:06:14Z",
@@ -1056,11 +1061,6 @@
     {
       "titulo": "Meu BC passa a contar com novos serviços para o cidadão",
       "data": "2025-06-25T17:42:57Z",
-      "url": "https://www.bcb.gov.br"
-    },
-    {
-      "titulo": "Museu de Valores empresta obras de arte para reabertura do Centro Cultural TCU",
-      "data": "2025-06-23T10:56:48Z",
       "url": "https://www.bcb.gov.br"
     }
   ]
